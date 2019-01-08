@@ -1,0 +1,53 @@
+#menue
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.minilogo
+{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.gymages
+{
+    margin-left: 10px;
+}
+
+.biglogo
+{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+.search_barre
+{
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    
+}
+
+#mic
+{
+
+    margin-left: 87%;
+    width: 30px;
+    margin-top: -30px;
+    border: 0em dashed red;
+    background-color: blueviolet;
+}
+
+#boutton
+{
+    display: flex;
+}
+
+#fotobar
+{
+    display: flex;
+}

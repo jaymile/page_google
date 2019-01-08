@@ -2,41 +2,55 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="public/styles.css">
+
         <title>page_google</title>
     </head>
 
     <body>
     
         <header>
-            <a href="https://mail.google.com">Gmail</a>
-            <a href="https://www.google.fr/imghp?hl=fr&tab=wi">images</a>
-            <a href="#">logo_appli_a_metre</a>
-            <a href="#">logo_motif_a_metre</a>
+            <div id="menue">
+                <div class="gymages"><a href="https://mail.google.com">Gmail</a></div>
+                <div class="gymages"><a href="https://www.google.fr/imghp?hl=fr&tab=wi">images</a></div>
+                <div><a href="#"><img src="public/images/appli.jpg" alt="logo" class="minilogo"></a></div>
+                <div><a href="#"><img src="public/images/cloack.webp" alt="logo" class="minilogo"></a></div>
+            </div>
         </header>
 
             <section>
                 <div>
-                    a metre un logo de google et a centré <br>
-                    en dessous du logo mettre une barre de 
-                    recherche avec un petit micro a la fin de la barre
+                    <img src="public/images/logo-google.png" alt="logo" class="biglogo">
                 </div>
-                        <div>recherche google sous forme de bouton</div>
-                          <div> j'ai de la chance sous forme de bouton</div>
-                            <p>pour bien démarrer l'année, <a href="https://learndigital.withgoogle.com/ateliersnumeriques?utm_source=HPP&utm_medium=referral&utm_campaign=France_HPP">formez-vous gratuitement au numerique avec google</a></p>
+                    <div>
+                     <div>
+                       <form method="POST" action="php ou autre"> 
+                           <input type="text" name="barre" class="search_barre" />
+                        </form>
+                        
+                       <div> <img src="public/images/mic-google.png" id="mic"></div>
+                    </div>    
+                          <div id="boutton"> 
+                              <div class="click"> <input type="button" value="j'ai de la chance"> </div>
+                              <div class="click"> <input type="button" value=" Recherche google"> </div>
+
+                          </div>
+                          
             </section>
 
-                <footer>
-                    france
-                </footer>
+                                 <footer>
+                                    france
+                                </footer>
                     
-                    <footer>
-                        <a href="">publicité</a>
-                        <a href="">Entreprise</a>
-                        <a href=""> A propos</a>
-                        <a href="">info consomateurs</a>
-                        <a href="">Confidentialité</a>
-                        <a href="">Conditions</a>
-                        <a href="">parametres</a>
-                    </footer>
+                                    <footer>
+                                        <a href="">publicité</a>
+                                        <a href="">Entreprise</a>
+                                        <a href="">A propos</a>
+                                        <a href="">info consomateurs</a>
+                                        <a href="">Confidentialité</a>
+                                        <a href="">Conditions</a>
+                                        <a href="">parametres</a>
+                                    </footer>
     </body>
 </html>
