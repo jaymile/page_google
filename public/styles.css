@@ -8,46 +8,148 @@
 
 .minilogo
 {
-    width: 30px;
-    margin-left: 10px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+.minilogo:hover
+{
+    text-decoration-color: black;
 }
 
 .gymages
 {
-    margin-left: 10px;
+    margin-left: 20px;
+}
+.gymages:hover
+{
+    text-decoration-line: underline;
 }
 
-.biglogo
+.biglogo img
 {
-    width: 40%;
-    margin-left: 30%;
+    width: 25%;
+    margin-left: 35%;
     margin-top: 8%;
 }
-.search_barre
+.search_barre input 
 {
-    margin-top: 20px;
-    width: 80%;
-    height: 40px;
-    margin-left: 10%;
-    
+
+    height: 25px;
+    width: 450px;
+    border: 0px solid;
+    background-color: transparent;
+    outline: none;
 }
 
-#mic
+.mic img
 {
-
-    margin-left: 87%;
     width: 30px;
-    margin-top: -30px;
-    border: 0em dashed red;
-    background-color: blueviolet;
 }
-
-#boutton
+#barre-images
 {
     display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 500px;
+    margin: auto;
+}
+
+.boutton
+{
+    display: flex;
+    margin-left: 42%;
+    margin-top: 10px;
+    border: none;
+}
+
+.boutton input:hover
+{
+    border: 1px solid rgb(61, 59, 59);
+}
+.boutton input
+{
+    border: none;
+    font-size: 0.7em;
+    width: 150px;
+    height: 25px;
+}
+
+.click
+{
+    margin-right: 10px;
+    
 }
 
 #fotobar
 {
     display: flex;
+}
+
+a
+{
+    text-decoration: none ;
+    color: rgb(126, 122, 122);
+}
+
+.footers
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.footer1
+{
+    
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 40px;
+
+}
+
+.footer2
+{
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.france
+{
+    color: darkgray;
+    height: 44px;
+    line-height: 1.9em;
+    margin-left: 20px;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menue1-2
+{
+    display: flex;
+    justify-content: flex-start;
+}
+.partie1
+{
+   margin-left: 20px; 
+   line-height: 1.9em;
+}
+
+#menue2-2
+{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 1.9em;
+}
+.partie2
+{
+    margin-right: 20px;
 }
